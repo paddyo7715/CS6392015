@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello Brenden OReilly</string>
+    <string name="And">And</string>
+    <string name="Last_Part">Welcome in CS 639 Summer 2015</string>
+    <string name="action_settings">Settings</string>
+</resources>
