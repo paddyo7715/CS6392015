@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageViewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prev_string">Prev</string>
+    <string name="next_string">Next</string>
+    <string name="car1_name">Chevy Cobalt SS</string>
+    <string name="car2_name">Chevy Comaro</string>
+    <string name="car3_name">Ford Mustang</string>
+    <string name="car4_name">Dodge Dart</string>
+    <string name="car5_name">Chevy Corvette</string>
+</resources>

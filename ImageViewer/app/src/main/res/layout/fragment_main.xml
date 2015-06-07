@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment">
+
+    <View android:layout_width ="match_parent" android:layout_height ="wrap_content"
+        android:background ="#333333" android:layout_alignBottom ="@+id/next"
+        android:layout_alignParentTop ="true"
+        android:id="@+id/view" />
+
+    <Button android:id ="@+id/prev"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_alignParentTop ="true"
+        android:text ="@string/prev_string"
+        android:textColor ="@android:color/white" />
+
+    <Button android:id ="@+id/next"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentRight ="true"
+        android:layout_alignParentTop ="true"
+        android:text ="@string/next_string"
+        android:textColor ="@android:color/white" />
+
+    <TextView android:id="@+id/text_view"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:gravity ="center"
+        android:text="@string/car1_name"
+        android:layout_toLeftOf ="@id/next"
+        android:layout_toRightOf ="@id/prev"
+        android:layout_alignBottom ="@id/prev"
+        android:layout_alignTop ="@id/prev"
+        android:textColor ="@android:color/white" />
+
+    <ImageView android:id="@+id/image_view"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:scaleType ="centerCrop"
+        android:src="@drawable/car1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/view" />
+</RelativeLayout>
