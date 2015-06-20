@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment">
+
+    <Button android:id ="@+id/SMS"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_alignParentTop ="true"
+        android:text ="@string/SMS_string" />
+
+    <Button android:id ="@+id/Phone"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_below="@+id/SMS"
+        android:text ="@string/Phone_string" />
+
+    <Button android:id ="@+id/Web"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_below="@+id/Phone"
+        android:text ="@string/Web_string" />
+
+    <Button android:id ="@+id/Map"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_below="@+id/Web"
+        android:text ="@string/Map_string" />
+
+    <Button android:id ="@+id/Share"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_below="@+id/Map"
+        android:text ="@string/Share_string" />
+
+    <Button android:id ="@+id/NewActivity"
+        android:layout_width ="wrap_content"
+        android:layout_height ="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:layout_below="@+id/Share"
+        android:text ="@string/NewActivity_string" />
+
+
+</RelativeLayout>
