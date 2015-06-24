@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BrendenOReillyMidterm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Convert Miles into kilometers</string>
+    <string name="mileslabel">Miles: </string>
+    <string name="equalssign">=</string>
+    <string name="btn_string">Convert</string>
+
+</resources>
