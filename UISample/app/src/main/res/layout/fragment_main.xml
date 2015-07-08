@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment"
+    android:background="#fff7ff4e">
+
+    <ImageView
+        android:id="@+id/test_image"
+        android:src="@drawable/bo"
+        android:layout_width="110dp"
+        android:layout_height="80dp"/>
+
+    <TextView android:id="@+id/test_fname"
+        android:text="@string/fname" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/test_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#ff4243ff"
+        android:textSize="18dp" />
+
+    <TextView android:id="@+id/test_lname"
+        android:text="@string/lname" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test_fname"
+        android:layout_toRightOf="@+id/test_image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#ff4243ff"
+        android:textSize="18dp" />
+
+
+    <TextView android:text="@string/classes" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/test_fname"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#ff4243ff"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

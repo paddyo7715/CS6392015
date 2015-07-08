@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UISample</string>
+    <string name="fname">Brenden</string>
+    <string name="lname">OReilly</string>
+    <string name="classes">CS639</string>
+    <string name="action_settings">Settings</string>
+</resources>
